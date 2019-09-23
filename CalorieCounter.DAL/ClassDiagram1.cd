@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CalorieCounter.DAL.NHibernateService">
+    <Position X="14.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>NHibernateService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalorieCounter.DAL.RepositoryFactory" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAJAAAAAAAAAAgAAAACAAAAAA=</HashCode>
+      <FileName>RepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CalorieCounter.DAL.Mappings.FoodMap">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappings\FoodMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalorieCounter.DAL.Mappings.ProgressMap">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappings\ProgressMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalorieCounter.DAL.Mappings.UserMap">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappings\UserMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalorieCounter.DAL.Repositories.FoodDatabaseRepository" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\FoodDatabaseRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CalorieCounter.DAL.Repositories.FoodRepository" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAgECAAAAAIAAAAAAABAAAAAAAAAAEAA=</HashCode>
+      <FileName>Repositories\FoodRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CalorieCounter.DAL.Repositories.ProgressRepository" BaseTypeListCollapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAACAAAAA=</HashCode>
+      <FileName>Repositories\ProgressRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CalorieCounter.DAL.Repositories.UserRepository" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAABAgEAAAAAEAAAA=</HashCode>
+      <FileName>Repositories\UserRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FluentNHibernate.Mapping.ClassMap&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CalorieCounter.DAL.IRepositoryFactory">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAJAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>IRepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CalorieCounter.Model.Repositories.IFoodDatabaseRepository">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="CalorieCounter.Model.Repositories.IFoodRepository">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="CalorieCounter.Model.Repositories.IProgressRepository">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="CalorieCounter.Model.Repositories.IUserRepository">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
